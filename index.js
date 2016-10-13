@@ -41,14 +41,14 @@ function responseHandler1 (data) {
   activateScrollEffect({ colors: COLORS })
 }
 // OR IF MANY HTTP CALLS
-// minixhr('https://api.github.com/users/esova-ana', responseHandler1)
+// minixhr('https://api.github.com/users/kari112', responseHandler1)
 // function responseHandler1 (data) {
 //   data = JSON.parse(data)
-//   minixhr('https://api.github.com/users/esova-ana', responseHandler2)
+//   minixhr('https://api.github.com/users/kari112', responseHandler2)
 // }
 // function responseHandler2 (data) {
 //   data.push(JSON.parse(data))
-//   minixhr('https://api.github.com/users/esova-ana', responseHandler3)
+//   minixhr('https://api.github.com/users/kari112', responseHandler3)
 // }
 // function responseHandler3 (data) {
 //   data.push(JSON.parse(data))
